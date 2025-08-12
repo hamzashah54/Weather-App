@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    height: 50px;
+    margin-bottom: 5px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+#locationText {
+    font-size: 1.2rem; 
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.details {
+    color: gray;
+}
+.card {
+    max-width: 450px;
+    margin: 0 auto;
+    backdrop-filter: blur(12px);
+    border: none;
+    color: #fff;
+}
+
+#city {
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    color: #333;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 1.rem;
+}
+input#city::placeholder {
+    color: #ddd;
+ 
+}
